@@ -54,7 +54,6 @@ public abstract class Karakter {
                         int serangan, int pertahanan) {
         this.hp = hpMaks;
         this.mana = manaMaks;
-        // ...
     }
 
     public HasilAksi serang(Karakter target) { ... }
@@ -88,9 +87,6 @@ hanya bagian yang memang beda, yaitu `gunakanSkill()`.
 <img width="1083" height="617" alt="image" src="https://github.com/user-attachments/assets/b2ab7d21-f8a0-4ba5-8b56-ffddf1b35262" />
 
 <img width="1071" height="648" alt="image" src="https://github.com/user-attachments/assets/8481bb05-bf42-4456-a8fd-d517373adcc9" />
-
-
-*(ganti gambar di atas dengan screenshot hasil menjalankan program sendiri)*
 
 ## Cara Menjalankan
 
