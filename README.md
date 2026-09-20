@@ -67,12 +67,11 @@ public abstract class Karakter {
 public class Ksatria extends Karakter {
 
     public Ksatria(String nama) {
-        super(nama, 140, 50, 14, 8); // manggil constructor superclass
+        super(nama, 140, 50, 14, 8);
     }
 
     @Override
     public HasilAksi gunakanSkill(Karakter target) {
-        // skill Ksatria: menambah pertahanan diri sendiri
         tambahStatus(new StatusEfek("Tameng Baja", 2, 12, 0));
         pulihkanHp(12);
         return new HasilAksi(getNama() + " memakai Tameng Baja", 12);
@@ -86,7 +85,10 @@ hanya bagian yang memang beda, yaitu `gunakanSkill()`.
 
 ## Screenshot Program
 
-![running](docs/screenshots/running-program.png)
+<img width="1083" height="617" alt="image" src="https://github.com/user-attachments/assets/b2ab7d21-f8a0-4ba5-8b56-ffddf1b35262" />
+
+<img width="1071" height="648" alt="image" src="https://github.com/user-attachments/assets/8481bb05-bf42-4456-a8fd-d517373adcc9" />
+
 
 *(ganti gambar di atas dengan screenshot hasil menjalankan program sendiri)*
 
